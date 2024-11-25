@@ -1,16 +1,20 @@
 {
-  "id": "acode.plugin",
-  "name": "Plugin",
+  "id": "acode.plugin.wakatime",
+  "name": "WakaTime",
   "main": "dist/main.js",
   "version": "1.0.0",
   "readme": "readme.md",
   "icon": "icon.png",
   "files": [],
-  "minVersionCode" : 290,
-  "price": 0,
   "author": {
-    "name": "",
-    "email": "",
-    "github": ""
+    "name": "mattchengg",
+    "email": "mattcheng20080205@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattchengg/acode-plugin"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
